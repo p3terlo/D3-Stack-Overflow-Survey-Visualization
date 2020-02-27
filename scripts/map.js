@@ -8,7 +8,7 @@ function generateMap(geoJSONobj, dataByCountry){
 	    id: 'mapbox/light-v10',
 	    tileSize: 512,
 	    zoomOffset: -1,
-	    accessToken: 'pk.eyJ1IjoicDN0ZXJsbyIsImEiOiJjazZvYzczenEwOHMxM2VtaTNtcG9ndzNwIn0.VHfBVuXRW0UPJqsa52TD-A'
+	    accessToken: MAPBOX_API_KEY
 	}).addTo(mymap);
 
 	// Init visualizations with two default countries: U.S. and India

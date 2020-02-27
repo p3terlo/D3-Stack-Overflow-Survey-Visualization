@@ -1,6 +1,7 @@
 function countryByCoord(latlng, popup, map, callbackFunc, dataByCountry) {
 
-	const API_KEY = 'AIzaSyDLtDLB9g6MD1HKdNrdThZCAhjpqPD-aUo';
+	// const API_KEY = 'AIzaSyDLtDLB9g6MD1HKdNrdThZCAhjpqPD-aUo';
+	const API_KEY = GOOGLE_API_KEY;
 	const url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latlng.lat + ',' + latlng.lng + '&result_type=country'+ '&key=' + API_KEY;
 	const request = new Request(url, {method: 'POST'});
 	var country;
