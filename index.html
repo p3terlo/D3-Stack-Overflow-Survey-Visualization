@@ -1,0 +1,33 @@
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+    </head>
+
+    <body>
+        <div class="topContainer">
+            <div id="mapid"></div>
+        </div>
+        <div class="bottomContainer">
+            <svg class="radarChart" class="prettyFont" />
+            <svg class="parallelCoordinates" />
+        </div>
+    </body>
+
+    <script src='./scripts/d3.js'></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+   <script src='./scripts/index.js'></script>
+   <script src="./scripts/map.js"></script>
+   <script src="./scripts/countryByCoord.js"></script>
+   <script src="./scripts/compareNames.js"></script>
+   <script src="./scripts/countryData.js"></script>
+   <script src="./scripts/radarChart.js"></script>
+   <script src='./scripts/parallelCoordinates.js'></script>
+</html>
